@@ -12,7 +12,6 @@ int main() {
     // Check if matrix multiplication is possible
     if (cols1 != rows2) {
         printf("Matrix multiplication is not possible.\n");
-        return 1;
     }
 
     int matrix1[rows1][cols1], matrix2[rows2][cols2], result[rows1][cols2];
