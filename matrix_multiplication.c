@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     int rows1, cols1, rows2, cols2;
 
     printf("Enter the number of rows and columns for matrix 1 respectively: ");
@@ -50,6 +50,4 @@ int main() {
         }
         printf("\n");
     }
-
-    return 0;
 }
